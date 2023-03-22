@@ -1,0 +1,85 @@
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 0px;
+    padding: 0px;
+    background: #000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: floralwhite;
+}
+body {
+font-size: 18px;
+}
+@media screen and (max-width:767px){
+    body {
+        font-size: 16px;
+    }
+}
+
+div.header {
+    /* width: 100%; */
+    height: 100vh;
+    background-image: url("woodfiremugsplit2.png");
+    background-position: center center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 8%;
+    transition: background 1s;
+}
+
+nav .logo img{
+    display: flex;
+    align-items: flex-start;
+    width: 50%
+}
+
+
+.magnifyingGlass {
+    width: 15px;
+    margin-left: 0px;
+    padding-left: 0px;
+    max width: 10%;
+    height: auto; */
+}
+ 
+.shoppingCart {
+    width: 40px;
+    margin-left: 0px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav:hover{
+    background: #000;
+}
+
+nav:hover ul li a {
+    color:floralwhite;
+}
+
+/* If time, do something with this */
+/* nav:hover span {
+    color:floralwhite
+} */
